@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stüssy Thailand</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
+      color: #222;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(8px);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 60px;
+      margin-right: 10px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #222;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #555;
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .search input {
+      padding: 8px 14px;
+      border-radius: 20px;
+      border: 1px solid #aaa;
+      outline: none;
+    }
+
+    main {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .product {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: 0.3s;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .discount {
+      color: #ff4444;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .product h3 {
+      margin: 10px 0 4px 0;
+    }
+
+    .product p {
+      font-weight: 600;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="Logo1.png" alt="s1.png">
+      <span><strong>Stüssythailand</strong></span>
+    </div>
+    <nav>
+      <a href="#">หน้าแรก</a>
+      <a href="#">สินค้า</a>
+      <a href="#">ติดต่อ</a>
+      <a href="#">ซัพพอร์ต</a>
+      <div class="search">
+        <input type="text" placeholder="Search">
+        🔍
+      </div>
+      🛒
+    </nav>
+  </header>
+
+  <main>
+    <h1>Stüssythailand</h1>
+    <div class="products">
+      <div class="product">
+        <div class="discount">ส่วนลด 70%</div>
+        <img src="sh1.png" alt="Basic Stussy Shirt">
+        <h3>Basic Stussy Shirt</h3>
+        <p>599 ฿</p>
+      </div>
+      <div class="product">
+        <div class="discount">ส่วนลด 50%</div>
+        <img src="https://i.imgur.com/Lu4i0Uq.png" alt="Angle Stussy Shirt">
+        <h3>Angle Stussy Shirt</h3>
+        <p>799 ฿</p>
+      </div>
+      <div class="product">
+        <div class="discount">ส่วนลด 65%</div>
+        <img src="https://i.imgur.com/gKX3E5G.png" alt="Fuzzy Dice Stussy Shirt">
+        <h3>Fuzzy Dice Stussy Shirt</h3>
+        <p>890 ฿</p>
+      </div>
+      <div class="product">
+        <div class="discount">ส่วนลด 50%</div>
+        <img src="https://i.imgur.com/MZzOEYs.png" alt="Fuzzy Dice Stussy Shirt">
+        <h3>Fuzzy Dice Stussy Shirt</h3>
+        <p>999 ฿</p>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
